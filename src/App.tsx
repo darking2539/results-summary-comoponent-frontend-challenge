@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-// import { ReactComponent as YourSvg } from '../src/assets/images/icon-reaction.svg';
+import ReactionSvg from '../src/assets/images/icon-reaction.svg';
+import MemorySvg from '../src/assets/images/icon-memory.svg';
+import VerbalSvg from '../src/assets/images/icon-verbal.svg';
+import VisualSvg from '../src/assets/images/icon-visual.svg';
 
 function App() {
 
@@ -8,28 +11,28 @@ function App() {
     {
       "category": "Reaction",
       "score": 80,
-      "icon": "../src/assets/images/icon-reaction.svg",
+      "icon": ReactionSvg,
       "color": "text-lightRed",
       "bgColor": "rgba(255, 87, 87, 0.1)"
     },
     {
       "category": "Memory",
       "score": 92,
-      "icon": "../src/assets/images/icon-memory.svg",
+      "icon": MemorySvg,
       "color": "text-orangeyYellow",
       "bgColor": "rgba(255, 176, 31, 0.1)"
     },
     {
       "category": "Verbal",
       "score": 61,
-      "icon": "../src/assets/images/icon-verbal.svg",
+      "icon": VerbalSvg,
       "color": "text-greenTel",
       "bgColor": "rgba(0, 189, 145, 0.1)"
     },
     {
       "category": "Visual",
       "score": 72,
-      "icon": "../src/assets/images/icon-visual.svg",
+      "icon": VisualSvg,
       "color": "text-cobaltBlue",
       "bgColor": "rgba(17, 37, 212, 0.1)"
     }
